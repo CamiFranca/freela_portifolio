@@ -1,0 +1,168 @@
+.container_experience {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 6em;
+
+}
+.title_experience_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    padding:  2em 1em 1.5em 1em; 
+    background-color: #E5D3C7;
+}
+
+.title_experience_page h1 {
+
+    padding: 5px;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+
+} 
+
+.box_experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 0;
+}
+
+.experience_item{
+    padding: 2em 3.5em;
+    width: 100%;
+}
+.experience_item_0 {
+    background-color: #ffffff;
+  }
+.experience_item_1{
+    background-color: #eeeeee;
+  }
+.experience_item_2 {
+    background-color: #e5d3c7;
+  }
+.experience_item_3 {
+    background-color: #FFFFFF;
+  }
+.title_experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7em 0 ;
+
+}
+
+.title_experience h2{
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+
+}
+
+.subtitle_experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding: 0.7em 0;
+
+}
+
+.subtitle_experience h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.experience_information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+}
+.experience_information ul{
+    margin: 1em 0;
+    padding-left: 1em;
+}
+
+.experience_information ul li{
+    padding-left: 0.7em;
+    margin: 0.5em 0;
+    color: var(--text-color);
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+.education_experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #714533;
+    padding: 2em 2em;
+    color: #ffffff;
+}
+.education_box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.education_experience_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.education_experience_title h2{
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.unir{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    padding: 0.5em;
+}
+
+.education_experience_subtitle{
+    display: flex;
+    align-items: center;
+    gap: 0.7em;
+    padding: 0.5em 0.5em;
+}
+
+.education_experience_subtitle h3{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.education_information{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+}
+
+.education_information ul{
+    padding-left: 1em;
+    gap:0.5em;
+}
+.education_information li{
+   font-weight: 600;
+   font-size: 1em;
+}
